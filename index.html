@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ali Lehrasab Khan - Software Developer, AI Automation Developer, and Computer Science student portfolio.">
+  <meta name="keywords" content="Ali Lehrasab Khan, Python Developer, AI Automation Developer, Web Developer, Portfolio">
+  <meta name="author" content="Ali Lehrasab Khan">
+  <title>Ali Lehrasab Khan | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="preloader" id="preloader">
+    <div class="loader-mark">AK</div>
+  </div>
+
+  <div class="scroll-progress" id="scrollProgress"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a href="#home" class="brand">Ali Khan</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#my-work">My Work</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="particles" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-content reveal">
+        <h1>Ali Lehrasab Khan</h1>
+        <p class="tagline">Building Intelligent Automation, Modern Web Solutions, and AI-Powered Applications.</p>
+        <div class="typing-line">
+          <span>I am a </span><strong id="typedText">Computer Science Student</strong>
+        </div>
+        <div class="hero-actions">
+          <a class="btn primary" href="resume.pdf" download><i class="fa-solid fa-download"></i>Download Resume</a>
+          <a class="btn secondary" href="#projects"><i class="fa-solid fa-diagram-project"></i>View Projects</a>
+          <a class="btn ghost" href="#contact"><i class="fa-solid fa-paper-plane"></i>Contact Me</a>
+          <a class="icon-btn" href="https://github.com/Ali-Lehrasab-khan" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a class="icon-btn" href="https://www.linkedin.com/in/ali-lehrasab/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="profile-stage reveal">
+        <div class="profile-glow" aria-hidden="true"></div>
+        <div class="profile-ring">
+          <div class="profile-frame">
+            <!-- Edit Profile Photo: replace images/profile.jpg with your own professional portrait. Keep the same filename for an instant update. -->
+            <img src="images/profile.jpg" alt="Professional portrait of Ali Lehrasab Khan" id="profileImage">
+            <div class="avatar-fallback" id="avatarFallback" aria-hidden="true">AK</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-band reveal" aria-label="Portfolio highlights">
+      <div><strong data-count="6">0</strong><span>Semester</span></div>
+      <div><strong data-count="8">0</strong><span>Featured Projects</span></div>
+      <div><strong data-count="9">0</strong><span>Core Skills</span></div>
+      <div><strong data-count="3">0</strong><span>Focus Areas</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">About Me</p>
+        <h2>Practical software, intelligent automation, and steady growth.</h2>
+      </div>
+      <div class="about-grid">
+        <article class="glass-panel reveal">
+          <p>I am Ali Lehrasab Khan, currently pursuing BS Computer Science in the 6th semester at COMSATS University Islamabad. I enjoy building intelligent software solutions, AI automation workflows, responsive websites, and practical programming projects that solve real-world problems.</p>
+          <p>My work spans Python, JavaScript, HTML, CSS, SQL, AI automation, n8n workflows, and web development. I am continuously learning app development, data analytics, machine learning, and full stack development while seeking internship, freelance, and collaborative opportunities.</p>
+        </article>
+        <div class="info-list reveal">
+          <p><i class="fa-solid fa-location-dot"></i>Attock City, Pakistan</p>
+          <p><i class="fa-solid fa-graduation-cap"></i>COMSATS University Islamabad</p>
+          <p><i class="fa-solid fa-envelope"></i>aliikhann417@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+92 370 9557714</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Skills</p>
+        <h2>Developer toolkit with automation depth.</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><i class="fa-brands fa-python"></i><h3>Python</h3><div class="bar"><span style="--level: 88%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-java"></i><h3>Java OOP</h3><div class="bar"><span style="--level: 78%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-brands fa-js"></i><h3>JavaScript</h3><div class="bar"><span style="--level: 82%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-database"></i><h3>SQL & MySQL</h3><div class="bar"><span style="--level: 74%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-robot"></i><h3>AI Automation</h3><div class="bar"><span style="--level: 84%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-code-branch"></i><h3>Git & GitHub</h3><div class="bar"><span style="--level: 76%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-network-wired"></i><h3>REST APIs</h3><div class="bar"><span style="--level: 72%"></span></div></article>
+        <article class="skill-card reveal"><i class="fa-solid fa-mobile-screen"></i><h3>Responsive Web</h3><div class="bar"><span style="--level: 86%"></span></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected work and learning milestones.</h2>
+      </div>
+      <div class="filter-tabs reveal" aria-label="Project filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="python">Python</button>
+        <button data-filter="java">Java</button>
+        <button data-filter="automation">Automation</button>
+        <button data-filter="web">Web</button>
+        <button data-filter="ml">ML</button>
+        <button data-filter="mobile">Mobile</button>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="python">
+          <h3>Language Translation Tool</h3>
+          <p>Python application that translates text into multiple languages using the Deep Translator API.</p>
+          <div class="chips"><span>Python</span><span>Deep Translator</span></div>
+        </article>
+        <article class="project-card reveal" data-category="java">
+          <h3>Car Rental Management System</h3>
+          <p>Java OOP project implementing inheritance, polymorphism, encapsulation, abstraction, and file handling.</p>
+          <div class="chips"><span>Java</span><span>OOP</span></div>
+        </article>
+        <article class="project-card reveal" data-category="automation">
+          <h3>Resume Analyzer AI</h3>
+          <p>n8n workflow with AI integration for resume analysis, candidate scoring, webhooks, and LLM processing.</p>
+          <div class="chips"><span>n8n</span><span>AI</span><span>Webhooks</span></div>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <h3>Modern Portfolio Website</h3>
+          <p>Responsive developer portfolio with animation, glassmorphism, interactive sections, and recruiter-friendly content.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="project-card reveal" data-category="ml">
+          <h3>Heart Disease ML Project</h3>
+          <p>Machine learning project using pandas, scikit-learn, SVM, Random Forest, outlier removal, scaling, and PCA for model comparison.</p>
+          <div class="chips"><span>Python</span><span>Scikit-learn</span><span>PCA</span></div>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <h3>Home Budget Planner</h3>
+          <p>Self-made budget planning web app with monthly salary, family members, transaction records, PKR formatting, and Firebase Realtime Database integration.</p>
+          <div class="chips"><span>JavaScript</span><span>Firebase</span><span>Web App</span></div>
+        </article>
+        <article class="project-card reveal" data-category="mobile">
+          <h3>Nova Sphere Mobile App</h3>
+          <p>React Native and Expo app with authentication, dashboard, records, add-record flow, map screen, tab navigation, and a custom space-themed interface.</p>
+          <div class="chips"><span>React Native</span><span>Expo</span><span>Mobile</span></div>
+        </article>
+        <article class="project-card reveal" data-category="web">
+          <h3>Web Technology Website</h3>
+          <p>Multi-page website with Home, About, Gallery, Contact, navigation, media content, and structured HTML/CSS practice pages.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>Web Project</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section my-work" id="my-work">
+      <div class="section-heading reveal">
+        <p class="eyebrow">My Projects</p>
+        <h2>Self-made work from my own project collection.</h2>
+      </div>
+      <div class="work-showcase reveal">
+        <div class="code-preview" aria-label="Project output preview">
+          <div class="code-window-bar"><span></span><span></span><span></span></div>
+          <pre><code>$ python translator.py
+Enter text: Hello recruiter
+Detected: English
+Output: Bonjour recruteur
+
+$ java CarRentalSystem
+Loading vehicles...
+Booking confirmed successfully.
+
+$ n8n resume-analyzer
+Webhook received
+Candidate score: 86/100</code></pre>
+        </div>
+        <div class="work-copy">
+          <p>These cards highlight the projects I built myself across Python, Java, web development, mobile app development, machine learning, and AI automation. The section is ready for screenshots, live links, or GitHub repositories as I publish more work.</p>
+          <div class="chips"><span>Self-made</span><span>Project Work</span><span>Web Apps</span><span>AI Automation</span></div>
+        </div>
+      </div>
+      <div class="work-grid">
+        <article class="work-card reveal">
+          <i class="fa-solid fa-code"></i>
+          <h3>Python Projects</h3>
+          <p>Python tools, machine learning assignments, heart disease prediction experiments, translation utilities, and problem-solving programs.</p>
+          <div class="chips"><span>Python</span><span>Automation</span><span>ML</span></div>
+        </article>
+        <article class="work-card reveal">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java Projects</h3>
+          <p>Object-oriented programming work including class design, inheritance, polymorphism, encapsulation, abstraction, and file handling.</p>
+          <div class="chips"><span>Java</span><span>OOP</span><span>File Handling</span></div>
+        </article>
+        <article class="work-card reveal">
+          <i class="fa-solid fa-robot"></i>
+          <h3>AI Workflow Projects</h3>
+          <p>n8n workflows, webhook automations, AI agents, prompt engineering experiments, and LLM-powered process automation.</p>
+          <div class="chips"><span>n8n</span><span>AI Agents</span><span>Webhooks</span></div>
+        </article>
+        <article class="work-card reveal">
+          <i class="fa-solid fa-window-restore"></i>
+          <h3>Web Projects</h3>
+          <p>Web Technology pages, JavaScript practice, responsive layouts, animated UI components, DOM interactions, and frontend pages made with HTML, CSS, and JavaScript.</p>
+          <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+        </article>
+        <article class="work-card reveal">
+          <i class="fa-solid fa-wallet"></i>
+          <h3>Home Budget Planner</h3>
+          <p>Personal finance app work from your OOP folder, including salary setup, member management, transaction tracking, Firebase requests, and PKR summaries.</p>
+          <div class="chips"><span>Firebase</span><span>Budget App</span><span>JavaScript</span></div>
+        </article>
+        <article class="work-card reveal">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h3>Mobile App Project</h3>
+          <p>Mobile application development work using Expo and React Native, including screens, tab navigation, authentication context, records, maps, and dashboard UI.</p>
+          <div class="chips"><span>Expo</span><span>React Native</span><span>Mobile</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="education">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Experience & Education</p>
+        <h2>Learning path shaped by real projects.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span></span><h3>BS Computer Science</h3><p>COMSATS University Islamabad, currently 6th semester with coursework in OOP, data structures, databases, operating systems, software engineering, AI, and web development.</p></article>
+        <article class="timeline-item reveal"><span></span><h3>AI Automation Developer</h3><p>Building n8n workflows, API integrations, webhooks, and optimized automation systems.</p></article>
+        <article class="timeline-item reveal"><span></span><h3>Python & Web Developer</h3><p>Creating automation scripts, backend logic, responsive websites, and JavaScript applications.</p></article>
+      </div>
+    </section>
+
+    <section class="section extras">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Professional Presence</p>
+        <h2>Profiles, services, and proof points.</h2>
+      </div>
+      <div class="extras-grid">
+        <article class="glass-panel reveal"><i class="fa-brands fa-github"></i><h3>GitHub Dashboard</h3><p>Profile picture, followers, repositories, contribution graph, streak, languages, activity, and latest projects placeholders.</p><a class="text-link" href="https://github.com/Ali-Lehrasab-khan" target="_blank" rel="noopener">Visit GitHub Profile</a></article>
+        <article class="glass-panel reveal"><i class="fa-brands fa-linkedin"></i><h3>LinkedIn Card</h3><p>Professional summary, followers placeholder, connections placeholder, and direct profile access.</p><a class="text-link" href="https://www.linkedin.com/in/ali-lehrasab/" target="_blank" rel="noopener">Open LinkedIn</a></article>
+        <article class="glass-panel reveal"><i class="fa-solid fa-briefcase"></i><h3>Services</h3><p>Python development, AI automation, frontend development, responsive websites, JavaScript apps, data analytics, and SQL database design.</p></article>
+        <article class="glass-panel reveal"><i class="fa-solid fa-award"></i><h3>Achievements</h3><p>BSCS student at COMSATS, AI automation projects, Java OOP work, Python applications, continuous learning, and open source enthusiasm.</p></article>
+      </div>
+    </section>
+
+    <section class="section faq-section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">More</p>
+        <h2>Certificates, testimonials, blog, and FAQ placeholders.</h2>
+      </div>
+      <div class="mini-grid">
+        <article class="mini-card reveal">Python Programming Certificate</article>
+        <article class="mini-card reveal">Data Analytics Certificate</article>
+        <article class="mini-card reveal">AI Automation Certificate</article>
+        <article class="mini-card reveal">Web Development Certificate</article>
+        <article class="mini-card reveal">Testimonials Coming Soon</article>
+        <article class="mini-card reveal">Blog Articles Coming Soon</article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s build something useful.</h2>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form reveal">
+          <input type="text" placeholder="Full Name" aria-label="Full Name" required>
+          <input type="email" placeholder="Email" aria-label="Email" required>
+          <input type="text" placeholder="Subject" aria-label="Subject" required>
+          <textarea rows="6" placeholder="Message" aria-label="Message" required></textarea>
+          <button class="btn primary" type="submit"><i class="fa-solid fa-paper-plane"></i>Send Message</button>
+        </form>
+        <div class="contact-cards reveal">
+          <p><i class="fa-solid fa-phone"></i><span>+92 370 9557714</span></p>
+          <p><i class="fa-solid fa-envelope"></i><span id="emailText">aliikhann417@gmail.com</span><button id="copyEmail" aria-label="Copy email"><i class="fa-regular fa-copy"></i></button></p>
+          <p><i class="fa-solid fa-location-dot"></i><span>Attock, Pakistan</span></p>
+          <form class="newsletter"><input type="email" placeholder="Newsletter email" aria-label="Newsletter email"><button type="submit"><i class="fa-solid fa-arrow-right"></i></button></form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#my-work">My Work</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-socials">
+      <a href="https://github.com/Ali-Lehrasab-khan" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/ali-lehrasab/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/ali._khan_47/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="mailto:aliikhann417@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+    <p>© 2026 Ali Lehrasab Khan. All Rights Reserved.</p>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
